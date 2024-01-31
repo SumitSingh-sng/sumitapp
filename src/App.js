@@ -21,10 +21,7 @@ function App() {
       document.body.style.color = "#ffffff";
       document.getElementById("textbox").style.backgroundColor = "grey";
       document.getElementById("textbox").style.color = "white";
-      document.getElementById("NavBar").style.backgroundColor = "grey";
-      document.getElementById("NavBar").style.color = "white";
-      //document.getElementsbyClassName("navbar")[0].style.backgroundColor = "#535154"
-     //document.getElementsByClassName("navbar")[0].style.color = "white";
+
    }
    else{
     setMode("light");
@@ -33,8 +30,6 @@ function App() {
     document.body.style.color = "#000000";
     document.getElementById("textbox").style.backgroundColor = "#ffffff";
       document.getElementById("textbox").style.color = "#000000";
-      //document.getElementsbyClassName("navbar")[0].style.backgroundColor = "#ffffff"
-      //document.getElementsbyClassName("navbar")[0].style.color = "#000000";
    
    }
   }
