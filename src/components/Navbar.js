@@ -6,7 +6,7 @@ export default function Navbar(props) {
   
   return (
     <>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className={`navbar navbar-expand-lg  navbar-${props.mode}  bg-${props.mode} `} id='NavBar'>
   <div className="container-fluid">
     <a className="navbar-brand" href="/">
     <img src="/public/apple-touch-icon.png" alt="Icon" />

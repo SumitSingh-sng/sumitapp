@@ -6,7 +6,7 @@ import Textbox from './components/Textbox';
 import React , {useState} from 'react'
 function App() {
   const [mode,setMode] = useState("light");
-  const [btnText,setBtnText] = useState("Dark");
+  const [btnText,setBtnText] = useState("Dark Mode");
   const [alert,setAlert] = useState("","");
   const showAlert = (message, type) => {
     setAlert({msg : message, 
@@ -21,6 +21,8 @@ function App() {
       document.body.style.color = "#ffffff";
       document.getElementById("textbox").style.backgroundColor = "grey";
       document.getElementById("textbox").style.color = "white";
+      document.getElementById("NavBar").style.backgroundColor = "grey";
+      document.getElementById("NavBar").style.color = "white";
       //document.getElementsbyClassName("navbar")[0].style.backgroundColor = "#535154"
      //document.getElementsByClassName("navbar")[0].style.color = "white";
    }
