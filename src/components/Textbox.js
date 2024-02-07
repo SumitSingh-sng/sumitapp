@@ -38,7 +38,7 @@ export default function Textbox(props) {
         </textarea>
         <p>The number of characters is {text.length} and the number of words is {text.split(" ").length}</p>
         <p>The emails in the textArea are : {email}</p>
-        <div className="btns">
+        <div className="btns my-3">
             <button className="btn btn-primary mx-3"  onClick={handleToUpper}>Convert to Upper Case</button>
             <button className="btn btn-danger mx-3"  onClick={handleToLower}>Convert to Lower Case</button>
             <button className="btn btn-success mx-3" onClick={getClear}>Clear</button>
