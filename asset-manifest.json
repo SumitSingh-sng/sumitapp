@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sumitapp/static/css/main.f855e6bc.css",
+    "main.js": "/sumitapp/static/js/main.5ffacc37.js",
+    "static/js/787.ddf6783c.chunk.js": "/sumitapp/static/js/787.ddf6783c.chunk.js",
+    "index.html": "/sumitapp/index.html",
+    "main.f855e6bc.css.map": "/sumitapp/static/css/main.f855e6bc.css.map",
+    "main.5ffacc37.js.map": "/sumitapp/static/js/main.5ffacc37.js.map",
+    "787.ddf6783c.chunk.js.map": "/sumitapp/static/js/787.ddf6783c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.5ffacc37.js"
+  ]
+}
