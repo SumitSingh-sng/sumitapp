@@ -5,12 +5,12 @@ import Alerts from './components/Alerts';
 import Navbar from './components/Navbar';
 import Textbox from './components/Textbox';
 import React , {useState} from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link
+// } from "react-router-dom";
 function App() {
   const [mode,setMode] = useState("light");
   const [btnText,setBtnText] = useState("Dark Mode");
@@ -45,11 +45,7 @@ function App() {
   <Navbar about="About Us" mode = {mode} toggleMode = {toggleMode} btnText = {btnText} />
   <Alerts alert = {alert} />
    <Textbox showAlert = {showAlert}/>
-   <Switch>
-    <Route path="/about">
-      <About/>
-    </Route>
-   </Switch>
+   <About/>
    </>
   );
 }
